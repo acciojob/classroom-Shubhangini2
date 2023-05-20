@@ -1,11 +1,14 @@
 package com.driver;
 import lombok.Getter;
 import lombok.Setter;
-
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class Teacher {
 
@@ -14,11 +17,5 @@ public class Teacher {
     private int numberOfStudents;
 
     private int age;
-
-    public Teacher(){
-        this.name= name;
-        this.numberOfStudents= numberOfStudents;
-        this.age=age;
-    }
 
 }
